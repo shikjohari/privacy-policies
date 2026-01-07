@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policies | OnlineCalcTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #22d3ee;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(34, 211, 238, 0.1) 0%, transparent 40%);
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .app-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .app-card h2 {
+            color: var(--text-main);
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+        }
+
+        .app-card p {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>App Privacy Policies</h1>
+
+        <a href="emi-calculator.html" class="app-card">
+            <h2>EMI Calculator</h2>
+            <p>Privacy policy for the EMI Calculator Android application.</p>
+        </a>
+
+        <a href="loan-affordability-calculator.html" class="app-card">
+            <h2>Loan Affordability Calculator</h2>
+            <p>Privacy policy for the Loan Affordability Calculator Android application.</p>
+        </a>
+
+        <div class="footer">
+            &copy; 2026 OnlineCalcTools. Managed by <a href="https://onlinecalctools.com"
+                style="color: var(--accent); text-decoration: none;">OnlineCalcTools</a>.
+        </div>
+    </div>
+</body>
+
+</html>
